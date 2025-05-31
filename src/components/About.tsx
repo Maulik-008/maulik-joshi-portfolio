@@ -1,4 +1,3 @@
-
 export const About = () => {
   return (
     <section id="about" className="py-20 px-4 relative">
@@ -31,14 +30,22 @@ export const About = () => {
               <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-cyan-400 to-blue-400"></div>
               <div className="pl-8 space-y-6">
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  I'm a passionate <span className="text-cyan-400 font-semibold">Full Stack Developer</span> with 3+ years of experience 
-                  building modern, scalable web applications. My expertise lies in creating seamless user 
+                  I'm a passionate{" "}
+                  <span className="text-cyan-400 font-semibold">
+                    Full Stack Developer
+                  </span>{" "}
+                  with 3+ years of experience building modern, scalable web
+                  applications. My expertise lies in creating seamless user
                   experiences with cutting-edge technologies.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  I've worked on innovative projects ranging from <span className="text-blue-400 font-semibold">AI-powered SaaS platforms</span> to 
-                  music community applications, always focusing on clean code, performance optimization, 
-                  and delivering exceptional user experiences.
+                  I've worked on innovative projects ranging from{" "}
+                  <span className="text-blue-400 font-semibold">
+                    AI-powered SaaS platforms
+                  </span>{" "}
+                  to music community applications, always focusing on clean
+                  code, performance optimization, and delivering exceptional
+                  user experiences.
                 </p>
               </div>
             </div>
@@ -47,16 +54,10 @@ export const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="group relative overflow-hidden">
                 <div className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-cyan-400/50 transition-all duration-300 group-hover:shadow-[0_0_30px_rgba(0,255,255,0.1)]">
-                  <div className="text-cyan-400 font-mono text-sm mb-2">LOCATION</div>
+                  <div className="text-cyan-400 font-mono text-sm mb-2">
+                    LOCATION
+                  </div>
                   <div className="text-white font-semibold">Gujarat, India</div>
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/5 to-blue-400/5 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl"></div>
-              </div>
-              
-              <div className="group relative overflow-hidden">
-                <div className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-cyan-400/50 transition-all duration-300 group-hover:shadow-[0_0_30px_rgba(0,255,255,0.1)]">
-                  <div className="text-cyan-400 font-mono text-sm mb-2">EXPERIENCE</div>
-                  <div className="text-white font-semibold">3+ Years</div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/5 to-blue-400/5 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl"></div>
               </div>
@@ -69,29 +70,35 @@ export const About = () => {
               {/* Corner decorations */}
               <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-cyan-400/30"></div>
               <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-cyan-400/30"></div>
-              
+
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
                   <span className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></span>
                   EDUCATION
                 </h3>
-                
+
                 <div className="space-y-6">
                   <div className="relative pl-6">
                     <div className="absolute left-0 top-2 w-2 h-2 bg-blue-400 rounded-full"></div>
                     <h4 className="text-xl font-semibold text-cyan-400 mb-2">
                       Bachelor of Engineering (B.E)
                     </h4>
-                    <p className="text-gray-200 font-medium mb-1">Information Technology</p>
-                    <p className="text-gray-400 mb-2">Gujarat Technological University</p>
+                    <p className="text-gray-200 font-medium mb-1">
+                      Information Technology
+                    </p>
+                    <p className="text-gray-400 mb-2">
+                      Gujarat Technological University
+                    </p>
                     <div className="flex flex-wrap gap-4 text-sm">
                       <span className="text-gray-400">2018 - 2022</span>
-                      <span className="text-cyan-400 font-mono">CGPA: 8.56</span>
+                      <span className="text-cyan-400 font-mono">
+                        CGPA: 8.56
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
-              
+
               {/* Animated background pattern */}
               <div className="absolute inset-0 opacity-5 group-hover:opacity-10 transition-opacity">
                 <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(45deg,transparent_35%,rgba(0,255,255,0.1)_50%,transparent_65%)] bg-[length:20px_20px]"></div>
