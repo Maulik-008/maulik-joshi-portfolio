@@ -34,7 +34,7 @@ export const About = () => {
                   <span className="text-cyan-400 font-semibold">
                     Full Stack Developer
                   </span>{" "}
-                  with 3+ years of experience building modern, scalable web
+                  with 4+ years of experience building modern, scalable web
                   applications. My expertise lies in creating seamless user
                   experiences with cutting-edge technologies.
                 </p>
